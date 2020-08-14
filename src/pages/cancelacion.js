@@ -13,7 +13,7 @@ export default function cancelacion() {
           La cancelacion de compra ha sido exitosa, esperamos verte por aqui
           pronto
         </p>
-        <span rol="img" aria-label="emoji">
+        <span role="img" aria-label="emoji">
           😪
         </span>
         <Link to="/">

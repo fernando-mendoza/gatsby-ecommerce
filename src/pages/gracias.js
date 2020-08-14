@@ -13,7 +13,7 @@ export default function gracias() {
           Espero tu experiencia de compra haya sido de lo mejor, te esperamos
           pronto
         </p>
-        <span rol="img" aria-label="emoji">
+        <span role="img" aria-label="emoji">
           ❤
         </span>
         <Link to="/">
