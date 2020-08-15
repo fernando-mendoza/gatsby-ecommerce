@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { Jumbo } from "../components"
 import { SEO } from "../components"
 import styled from "styled-components"
@@ -34,7 +34,6 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <Jumbo description={data.allSite.edges[0].node.siteMetadata.description} />
     <Button color="gray"> Comprar </Button>
-    <Link to="/gracias/">Go to page 2</Link>
   </>
 )
 
