@@ -16,11 +16,11 @@ const Layout = ({ children }) => (
     <Header />
     <Content>
       <main>{children}</main>
-      <Footer>
-        con ❤ por
-        <a href="https://www.gatsbyjs.org">Fer</a>
-      </Footer>
     </Content>
+    <Footer>
+      con ❤ por
+      <a href="https://www.gatsbyjs.org">Fer</a>
+    </Footer>
   </>
 )
 Layout.propTypes = {
